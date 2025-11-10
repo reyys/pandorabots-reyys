@@ -19,8 +19,8 @@
     <template>Maaf, aku belum punya jawaban untuk itu.</template>
   </category>
 
-<category>
-    <pattern>Test</pattern>
-    <template>Test Response</template>
-</category>
+    <category>
+        <pattern>Test</pattern>
+        <template>Test Response</template>
+    </category>
 </aiml>
