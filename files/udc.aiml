@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  
+  <!-- Respons sapaan umum -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      <random>
+        <li>Hai! Aku bisa bantu kamu belajar tentang Natural Language Processing dan Artificial Intelligence.</li>
+        <li>Halo! Mau tahu tentang dunia bahasa alami dan kecerdasan buatan?</li>
+        <li>Selamat datang di bot pembelajaran seputar Natural Language Processing dan Artificial Intelligence!</li>
+      </random>
+    </template>
+  </category>
+
+  <!-- Respons default untuk input yang tidak dikenal -->
+  <category>
+    <pattern>*</pattern>
+    <template>Maaf, aku belum punya jawaban untuk itu.</template>
+  </category>
+
+<category>
+    <pattern>Test</pattern>
+    <template>Test Response</template>
+</category>
+</aiml>
