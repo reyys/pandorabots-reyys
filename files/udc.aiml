@@ -1,291 +1,268 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+  
+    <!-- 1–10: Tentang Developer & Tujuan -->
 
-  <!-- === TOPIK UTAMA: THEMEPLATE AI WEBSITE BUILDER === -->
-  <topic name="THEMEPLATE_AI_WEBSITE_BUILDER">
-
-    <!-- Penjelasan umum proyek -->
     <category>
-      <pattern>APA ITU THEMEPLATE</pattern>
-      <template>
-        ThemePlate adalah platform AI Website Builder yang dapat membuat website secara otomatis dan instan berdasarkan deskripsi atau penjelasan pengguna.
-        Sistem ini menggunakan model AI DeepSeek yang telah di-fine-tune agar mampu memahami instruksi dalam bahasa alami, kemudian menghasilkan struktur dan konten website secara cerdas.
-      </template>
+      <pattern>APA JUDUL SKRIPSI KAMU</pattern>
+      <template>Judul skripsi yang dikembangkan adalah Perancangan Website Builder Otomatis dengan Sistem Pembayaran Smart Contract Blobkchain.</template>
+    </category>
+    
+    <category>
+        <pattern>APA NAMA WEBSITE YANG KAMU AKAN BUAT</pattern>
+        <template>Nama website builder otomatis yang dikembangkan adalah ThemePlate. Website dapat diakses secara langsung pada domain themeplate.id.</template>
+    </category>
+    
+    <category>
+      <pattern>SIAPA DEVELOPER THEMEPLATE</pattern>
+      <template>ThemePlate dikembangkan oleh Reynaldo.</template>
     </category>
 
     <category>
-      <pattern>TUJUAN THEMEPLATE</pattern>
-      <template>
-        Tujuan ThemePlate adalah mempermudah pembuatan website tanpa perlu kemampuan coding.
-        Pengguna cukup menjelaskan ide atau konsep website, lalu sistem AI akan membangun website lengkap secara otomatis, termasuk desain, teks, dan layout.
-      </template>
+      <pattern>TUJUAN UTAMA PEMBUATAN THEMEPLATE</pattern>
+      <template>Tujuannya adalah untuk mempermudah klien yang membutuhkan website secara instan tanpa perlu mengerti coding.</template>
     </category>
 
-    <!-- Tentang teknologi AI -->
+    <category>
+      <pattern>MENGAPA THEMEPLATE DIBUAT</pattern>
+      <template>ThemePlate dibuat untuk memberikan solusi pembuatan website otomatis yang cepat dan efisien.</template>
+    </category>
+
+    <category>
+      <pattern>UNTUK SIAPA THEMEPLATE DIBUAT</pattern>
+      <template>ThemePlate ditujukan untuk pemilik usaha, freelancer, kreator, dan pengguna umum yang ingin website cepat jadi.</template>
+    </category>
+
+    <category>
+      <pattern>APAKAH BISA DIGUNAKAN PEMULA</pattern>
+      <template>Ya, platform ini dirancang agar bisa digunakan oleh pemula tanpa pengalaman teknis.</template>
+    </category>
+
+    <category>
+      <pattern>KEGUNAAN UTAMA THEMEPLATE</pattern>
+      <template>ThemePlate digunakan untuk membangun website otomatis dari deskripsi pengguna.</template>
+    </category>
+
+    <category>
+      <pattern>APA VISI THEMEPLATE</pattern>
+      <template>Visinya adalah menciptakan ekosistem pembuatan website otomatis berbasis AI.</template>
+    </category>
+
+    <category>
+      <pattern>APA MISI THEMEPLATE</pattern>
+      <template>Misinya menyediakan alat cerdas yang dapat menghasilkan website profesional dalam hitungan detik.</template>
+    </category>
+
+
+    <!-- 11–20: Teknologi & AI -->
+
     <category>
       <pattern>APA ITU DEEPSEEK</pattern>
-      <template>
-        DeepSeek adalah model kecerdasan buatan berbasis deep learning yang dioptimalkan untuk memahami dan menghasilkan teks yang kompleks.
-        Dalam proyek ThemePlate, model ini di-fine-tune khusus agar mampu memahami instruksi pengguna dalam konteks pembuatan website.
-      </template>
+      <template>DeepSeek adalah model AI deep learning yang digunakan untuk memahami deskripsi website.</template>
     </category>
 
     <category>
       <pattern>MENGAPA MENGGUNAKAN DEEPSEEK</pattern>
-      <template>
-        DeepSeek dipilih karena memiliki kemampuan reasoning dan pemahaman konteks yang tinggi.
-        Setelah melalui proses fine-tuning, model ini dapat menghasilkan struktur website yang sesuai dengan keinginan pengguna, bukan sekadar teks deskriptif.
-      </template>
+      <template>DeepSeek dipilih karena kemampuannya memahami konteks instruksi pengguna dengan akurat.</template>
     </category>
 
-    <!-- Tentang blockchain & pembayaran -->
+    <category>
+      <pattern>BAGAIMANA AI BEKERJA DI THEMEPLATE</pattern>
+      <template>AI memproses deskripsi pengguna lalu menghasilkan struktur, teks, dan elemen website secara otomatis.</template>
+    </category>
+
+    <category>
+      <pattern>APA FUNGSI FINE TUNING</pattern>
+      <template>Fine tuning membuat AI mampu memahami instruksi spesifik terkait pembuatan website.</template>
+    </category>
+
+    <category>
+      <pattern>APA SAJA MODEL YANG DIGUNAKAN</pattern>
+      <template>ThemePlate menggunakan DeepSeek Fine-tuned sebagai model utama.</template>
+    </category>
+
+    <category>
+      <pattern>BAGAIMANA AI MENENTUKAN DESAIN WEBSITE</pattern>
+      <template>Model AI menganalisis jenis usaha, target audiens, dan gaya tulisan dari input pengguna.</template>
+    </category>
+
+    <category>
+      <pattern>APAKAH AI BISA MENYESUAIKAN INDUSTRI</pattern>
+      <template>Ya, AI dapat menyesuaikan gaya website untuk berbagai industri seperti kuliner, jasa, edukasi, dan UMKM.</template>
+    </category>
+
+    <category>
+      <pattern>APAKAH AI MEMBUAT KONTEN SENDIRI</pattern>
+      <template>Benar, AI menghasilkan teks, judul, dan layout sesuai kebutuhan website.</template>
+    </category>
+
+    <category>
+      <pattern>APAKAH AI BISA DIPERINTAH SECARA BEBAS</pattern>
+      <template>Pengguna dapat memberikan deskripsi bebas dan AI akan mengubahnya menjadi website.</template>
+    </category>
+
+    <category>
+      <pattern>APAKAH KONTEN AI BISA DIEDIT</pattern>
+      <template>Ya, semua konten yang dihasilkan AI dapat diedit di editor visual.</template>
+    </category>
+
+
+    <!-- 21–30: Blockchain & Pembayaran -->
+
     <category>
       <pattern>APA HUBUNGANNYA DENGAN SOLANA</pattern>
-      <template>
-        ThemePlate menggunakan Solana Smart Contract sebagai sistem pembayaran langganan.
-        Dengan Solana, setiap transaksi paket langganan dicatat secara transparan dan aman di blockchain, memastikan sistem pembayaran tidak dapat dimanipulasi.
-      </template>
+      <template>ThemePlate menggunakan Solana Smart Contract untuk sistem langganan premium.</template>
     </category>
 
     <category>
       <pattern>MENGAPA MEMILIH SOLANA</pattern>
-      <template>
-        Solana dipilih karena memiliki kecepatan transaksi yang tinggi, biaya gas yang rendah, dan dukungan ekosistem Web3 yang luas.
-        Hal ini membuat ThemePlate dapat memberikan pengalaman pembayaran cepat dan efisien bagi pengguna premium.
-      </template>
+      <template>Solana dipilih karena cepat, murah, dan transaksi blockchain yang aman.</template>
     </category>
 
     <category>
-      <pattern>BAGAIMANA PROSES PEMBAYARAN BERJALAN</pattern>
-      <template>
-        Ketika pengguna memilih paket langganan, sistem akan mengarahkan ke smart contract di jaringan Solana.
-        Setelah transaksi berhasil diverifikasi di blockchain, akun pengguna otomatis diperbarui dengan status premium dan fitur AI Website Builder penuh dapat digunakan.
-      </template>
+      <pattern>BAGAIMANA PEMBAYARAN BERJALAN</pattern>
+      <template>Pembayaran diverifikasi melalui smart contract dan status premium diperbarui otomatis.</template>
     </category>
 
-    <!-- Tentang fitur sistem -->
+    <category>
+      <pattern>APAKAH PEMBAYARAN DIJAMIN AMAN</pattern>
+      <template>Ya, semua transaksi tercatat di blockchain Solana sehingga tidak bisa dimanipulasi.</template>
+    </category>
+
+    <category>
+      <pattern>BAGAIMANA CARA BAYAR</pattern>
+      <template>Pengguna memilih paket, melakukan transaksi Solana, dan fitur premium langsung aktif.</template>
+    </category>
+
+    <category>
+      <pattern>BERAPA BIAYA TRANSAKSI</pattern>
+      <template>Biaya transaksi sangat rendah karena Solana memiliki gas fee minimal.</template>
+    </category>
+
+    <category>
+      <pattern>APA ITU SMART CONTRACT</pattern>
+      <template>Smart contract adalah program blockchain yang berjalan otomatis untuk memverifikasi pembayaran.</template>
+    </category>
+
+    <category>
+      <pattern>APAKAH PERLU DOMPET SOLANA</pattern>
+      <template>Ya, pengguna memerlukan wallet Solana untuk melakukan pembayaran premium.</template>
+    </category>
+
+    <category>
+      <pattern>APAKAH ADA SISTEM REFUND</pattern>
+      <template>Refund mengikuti logika smart contract yang sudah diset dan bekerja secara transparan.</template>
+    </category>
+
+    <category>
+      <pattern>APAKAH PEMBAYARAN BISA PAKAI RUPIAH</pattern>
+      <template>Saat ini pembayaran juga dapat menggunakan rupiah karena website telah terintegrasi dengan Midtrans sebagai payment gateway.</template>
+    </category>
+
+
+    <!-- 31–40: Fitur Produk -->
+
     <category>
       <pattern>FITUR UTAMA THEMEPLATE</pattern>
-      <template>
-        ThemePlate memiliki beberapa fitur utama:
-        <br/>1. Pembuatan website otomatis berbasis AI.
-        <br/>2. Desain responsif dan dinamis.
-        <br/>3. Pembayaran paket menggunakan Solana Smart Contract.
-        <br/>4. Integrasi real-time editor untuk kustomisasi hasil AI.
-        <br/>5. Pengelolaan template yang bisa disesuaikan dengan kebutuhan pengguna.
-      </template>
+      <template>Pembuatan website otomatis, editor visual, hosting instan, dan pembayaran blockchain.</template>
     </category>
 
     <category>
-      <pattern>BAGAIMANA CARA KERJANYA</pattern>
-      <template>
-        Cara kerja ThemePlate:
-        <br/>1. Pengguna memberikan deskripsi website (contoh: "Saya ingin website portofolio untuk desainer grafis").
-        <br/>2. Model DeepSeek yang sudah di-fine-tune memproses input tersebut.
-        <br/>3. Sistem AI menghasilkan struktur, teks, dan tampilan dasar website.
-        <br/>4. Pengguna dapat melakukan editing langsung melalui editor visual.
-      </template>
+      <pattern>APA SAJA JENIS WEBSITE YANG DIDUKUNG</pattern>
+      <template>Portofolio, bisnis, landing page, kesehatan, dan website personal.</template>
     </category>
 
     <category>
-      <pattern>APA KELEBIHANNYA</pattern>
-      <template>
-        Kelebihan ThemePlate dibandingkan builder lain:
-        <br/>• Proses pembuatan website sangat cepat dan otomatis.
-        <br/>• Menggunakan AI DeepSeek yang paham konteks instruksi pengguna.
-        <br/>• Transaksi langganan aman berkat Solana Smart Contract.
-        <br/>• Hasil website dapat langsung di-host tanpa konfigurasi manual.
-      </template>
+      <pattern>BERAPA LAMA PROSES PEMBUATAN WEBSITE</pattern>
+      <template>Website dapat dibuat dalam beberapa detik setelah deskripsi diberikan.</template>
     </category>
 
     <category>
-      <pattern>APA KEKURANGANNYA</pattern>
-      <template>
-        Kekurangannya antara lain:
-        <br/>• Membutuhkan koneksi internet stabil untuk proses AI.
-        <br/>• Pengguna baru perlu memahami sedikit cara kerja blockchain Solana.
-        <br/>• Fitur kustomisasi lanjutan masih terbatas pada versi beta.
-      </template>
+      <pattern>APAKAH WEBSITE RESPONSIF</pattern>
+      <template>Ya, desain otomatis responsif untuk mobile dan desktop.</template>
     </category>
 
-    <!-- Tentang hasil dan kontribusi penelitian -->
+    <category>
+      <pattern>BAGAIMANA SISTEM HOSTING</pattern>
+      <template>Setelah selesai dibuat, website dapat langsung di-deploy dalam satu klik.</template>
+    </category>
+
+    <category>
+      <pattern>APAKAH BISA MENGGANTI KONTEN WEBSITE</pattern>
+      <template>Pengguna dapat mengubah copywriting dan gambar website jika dirasa kurang sesuai.</template>
+    </category>
+
+    <category>
+      <pattern>APAKAH ADA TEMPLATE TAMBAHAN</pattern>
+      <template>Tersedia banyak template tambahan yang bisa dipilih pengguna.</template>
+    </category>
+
+    <category>
+      <pattern>BAGAIMANA FITUR EDITOR VISUAL BEKERJA</pattern>
+      <template>Editor visual yang memungkinkan drag-and-drop dan edit langsung di halaman masih dalam proses pengembangan.</template>
+    </category>
+
+    <category>
+      <pattern>APAKAH BISA IMPORT DESAIN SENDIRI</pattern>
+      <template>Fitur import desain sedang dikembangkan pada versi selanjutnya.</template>
+    </category>
+
+    <category>
+      <pattern>APAKAH WEBSITE BISA DIEXPORT</pattern>
+      <template>Website bisa diekspor jika pengguna ingin hosting mandiri.</template>
+    </category>
+
+
+    <!-- 41–50: Penelitian & Implementasi Skripsi -->
+
+    <category>
+      <pattern>LATAR BELAKANG SKRIPSI</pattern>
+      <template>Kebutuhan pembuatan website cepat mendorong pengembangan AI Website Builder.</template>
+    </category>
+
+    <category>
+      <pattern>TEMA SKRIPSI</pattern>
+      <template>Tema skripsi ini adalah penerapan AI dan blockchain untuk pembuatan website otomatis.</template>
+    </category>
+
+    <category>
+      <pattern>RUMUSAN MASALAH</pattern>
+      <template>Bagaimana AI membangun website otomatis dan bagaimana smart contract mengelola pembayaran.</template>
+    </category>
+
+    <category>
+      <pattern>METODE PENELITIAN</pattern>
+      <template>Metodenya meliputi studi literatur, implementasi, dan pengujian sistem.</template>
+    </category>
+
+    <category>
+      <pattern>MANFAAT PENELITIAN</pattern>
+      <template>Memberikan solusi otomatisasi pembuatan website yang cepat dan efisien.</template>
+    </category>
+
+    <category>
+      <pattern>KEUNIKAN THEMEPLATE</pattern>
+      <template>Keunikannya adalah kombinasi AI, editor visual, dan pembayaran blockchain.</template>
+    </category>
+
     <category>
       <pattern>HASIL PENELITIAN</pattern>
-      <template>
-        Hasil penelitian menunjukkan bahwa ThemePlate mampu membangun website sederhana hingga menengah hanya dari input teks.
-        Proses ini jauh lebih efisien dibandingkan metode manual, dengan waktu pembuatan rata-rata 80% lebih cepat.
-      </template>
+      <template>ThemePlate terbukti mampu menghasilkan website 80% lebih cepat dari proses manual.</template>
     </category>
 
     <category>
       <pattern>KONTRIBUSI PENELITIAN</pattern>
-      <template>
-        Kontribusi penelitian ini meliputi:
-        <br/>1. Implementasi model DeepSeek Fine-tuned dalam domain website builder.
-        <br/>2. Integrasi AI dan blockchain (Solana) dalam satu ekosistem digital.
-        <br/>3. Solusi otomatisasi pembangunan website berbasis bahasa alami.
-      </template>
-    </category>
-
-    <!-- Tentang skripsi -->
-    <category>
-      <pattern>TEMA SKRIPSI</pattern>
-      <template>
-        Tema skripsi ini adalah "AI Website Builder menggunakan DeepSeek Fine-tuned dan Solana Smart Contract untuk Pembayaran Paket Langganan".
-        Fokusnya adalah penerapan AI generatif dan blockchain dalam otomasi pembuatan website.
-      </template>
+      <template>Memberikan model integrasi AI fine-tuned dengan smart contract Solana.</template>
     </category>
 
     <category>
-      <pattern>LATAR BELAKANG SKRIPSI</pattern>
-      <template>
-        Latar belakangnya adalah kebutuhan masyarakat akan pembuatan website yang cepat, murah, dan efisien.
-        Dengan memanfaatkan AI dan blockchain, sistem dapat menghadirkan solusi otomatis tanpa perlu keterampilan teknis tinggi.
-      </template>
+      <pattern>APAKAH THEMEPLATE AKAN DIKEMBANGKAN LAGI</pattern>
+      <template>Ya, fitur lanjutan seperti integrasi plugin dan template premium sedang dipersiapkan.</template>
     </category>
 
     <category>
-      <pattern>SELESAI</pattern>
-      <template>
-        Baik, pembahasan tentang ThemePlate sudah selesai.
-        <set name="topic">unknown</set>
-        Terima kasih sudah belajar bersama. Mau bahas bagian lain dari skripsimu?
-      </template>
+      <pattern>KESIMPULAN SKRIPSI</pattern>
+      <template>ThemePlate menunjukkan bahwa AI dan blockchain dapat mempercepat proses pembuatan website.</template>
     </category>
 
-  </topic>
-
-<category>
-    <pattern>Test</pattern>
-    <template>Edit bot response</template>
-</category>
 </aiml>
-
-
-<!--<?xml version="1.0" encoding="UTF-8"?>-->
-<!--<aiml>-->
-  
-  <!-- Respons sapaan umum -->
-<!--    <category>-->
-<!--        <pattern>HELLO</pattern>-->
-<!--        <template>-->
-<!--          <random>-->
-<!--            <li>Hai! Aku bisa bantu kamu belajar tentang Natural Language Processing dan Artificial Intelligence.</li>-->
-<!--            <li>Halo! Mau tahu tentang dunia bahasa alami dan kecerdasan buatan?</li>-->
-<!--            <li>Selamat datang di bot pembelajaran seputar Natural Language Processing dan Artificial Intelligence!</li>-->
-<!--          </random>-->
-<!--        </template>-->
-<!--    </category>-->
-
-  <!-- Respons default untuk input yang tidak dikenal -->
-<!--    <category>-->
-<!--        <pattern>*</pattern>-->
-<!--        <template>Maaf, aku belum punya jawaban untuk itu.</template>-->
-<!--    </category>-->
-
-<!--    <category>-->
-<!--        <pattern>Test</pattern>-->
-<!--        <template>Test Response</template>-->
-<!--    </category>-->
-    
-<!--    <category>-->
-<!--        <pattern>NAMA SAYA *</pattern>-->
-<!--        <template>Halo, <star/>! Senang bertemu denganmu.</template>-->
-<!--    </category>-->
-    
-<!--    <category>-->
-<!--        <pattern>NAMA SAYA *</pattern>-->
-<!--        <template>Oke, <set name="nama"><star/></set> Namamu sudah kusimpan.</template>-->
-<!--    </category>-->
-    
-<!--    <category>-->
-<!--        <pattern>SIAPA NAMA SAYA</pattern>-->
-<!--        <template>Nama kamu <get name="nama"/>.</template>-->
-<!--    </category>-->
-    
-<!--    <category>-->
-<!--        <pattern>HI</pattern>-->
-<!--        <template><srai>APA KABAR</srai></template>-->
-<!--    </category>-->
-    
-<!--    <category>-->
-<!--        <pattern>HI</pattern>-->
-<!--        <template>-->
-<!--            <random>-->
-<!--                <li>Hai!</li>-->
-<!--                <li>Halo juga!</li>-->
-<!--                <li>Halo! Senang mengobrol denganmu.</li>-->
-<!--            </random>-->
-<!--        </template>-->
-<!--    </category>-->
-    
-<!--    <category>-->
-<!--        <pattern>APA KABAR</pattern>-->
-<!--        <template>Kabarku baik. Kamu sendiri bagaimana?</template>-->
-<!--    </category>-->
-    
-<!--    <category>-->
-<!--        <pattern>BAIK</pattern>-->
-<!--        <that>KAMU SENDIRI BAGAIMANA</that>-->
-<!--        <template>Syukurlah kalau begitu!</template>-->
-<!--    </category>-->
-    
-<!--    <category>-->
-<!--        <pattern>SAYA *</pattern>-->
-<!--        <template>-->
-<!--            <srai>NAMA SAYA <star/></srai>-->
-<!--        </template>-->
-<!--    </category>-->
-    
-<!--    <category>-->
-<!--        <pattern>SIAPA NAMA SAYA</pattern>-->
-<!--        <template>-->
-<!--            <condition name="nama">-->
-<!--                <li><value>*</value> Nama kamu <get name="nama"/>. Aku ingat!</li>-->
-<!--                <li>Kamu belum memberitahu namamu.</li>-->
-<!--            </condition>-->
-<!--        </template>-->
-<!--    </category>-->
-    
-<!--    <category>-->
-<!--        <pattern>*</pattern>-->
-<!--        <template>-->
-<!--            <random>-->
-<!--                <li>Maaf, aku belum mengerti itu.</li>-->
-<!--                <li>Bisa katakan dengan cara lain?</li>-->
-<!--                <li>Aku masih belajar. Coba tanyakan hal lain seperti "Apa kabar?".</li>-->
-<!--                <li>Itu topik yang menarik, tapi aku belum diprogram untuk itu.</li>-->
-<!--            </random>-->
-<!--        </template>-->
-<!--    </category>-->
-    
-    
-<!--    <topic name="BELAJAR_NLP">-->
-    
-<!--      <category>-->
-<!--        <pattern>CONTOHNYA</pattern>-->
-<!--        <template>-->
-<!--          Contoh NLP ada di sekitar kita! Seperti Google Translate, Siri/Google Assistant, dan bahkan chatbot ini.-->
-<!--          Ada lagi yang mau ditanya?-->
-<!--        </template>-->
-<!--      </category>-->
-    
-<!--      <category>-->
-<!--        <pattern>SULIT TIDAK</pattern>-->
-<!--        <template>-->
-<!--          Bisa dibilang cukup menantang karena bahasa manusia itu rumit, tapi sangat seru untuk dipelajari!-->
-<!--        </template>-->
-<!--      </category>-->
-    
-<!--      <category>-->
-<!--        <pattern>SELESAI</pattern>-->
-<!--        <template>-->
-<!--          Oke, kita selesai belajar dasar NLP.-->
-<!--          <set name="topic">unknown</set>-->
-<!--          Senang bisa membantu! Mau ngobrolin apa lagi?-->
-<!--        </template>-->
-<!--      </category>-->
-    
-<!--    </topic>-->
-
-<!--</aiml>-->

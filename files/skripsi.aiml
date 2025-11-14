@@ -156,7 +156,7 @@
   </topic>
 
 <category>
-    <pattern></pattern>
-    <template></template>
+    <pattern>Test</pattern>
+    <template>Edit bot response</template>
 </category>
 </aiml>
